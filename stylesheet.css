@@ -1,0 +1,143 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-color: #151E14 ;
+}
+
+li { font-size: 18px;
+  list-style: none;}
+
+li a { color: #ABEDD8; text-decoration:none; font-size: 18px;}
+li a:hover { color: #ABEDD8; }
+li a:active { color: #ABEDD8; }
+li a:visited { color: #ABEDD8; }
+li a:active {color:#ABEDD8;}
+/* Ketik code Anda dibawah */
+.header {
+  background-color: #3D84A7;
+  color: #ABEDD8;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding: 20px 40px;
+  font-family: Roboto;
+}
+.header-list {float: left;}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+  
+}
+
+.copy-container h1 {
+  font-size: 100px;
+  color: #46CDCF;
+}
+
+.copy-container h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  color: #46CDCF;
+}
+.copy-container p {
+  font-size: 25px;
+  padding-top: 10px;
+  margin-top: 15px;
+  color: white;
+  font-family: "Helvetica";
+  text-decoration:none;
+
+}
+a { color: #ABEDD8; text-decoration:none;font-size: 22px;}
+
+.copy-container span {
+  color: #60F4A0;
+}
+
+.contents {
+ height: 500px;            
+                                 margin-top: 100px;
+                                  
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  color: #46CDCF; 
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+
+
+}
+
+.contact-form {
+ padding-top: 100px;
+ color: white; 
+ }
+
+.contact-form section-title {margin-top: 50px;border: 1px solid #dee7ec;
+}
+
+
+input,textarea { width: 400px; 
+margin-top: 10px; 
+padding: 20px; 
+margin-bottom: 30px;
+font-size: 18px;
+
+}
+
+
+.contact-submit {background-color:#dee7ec;
+                 color: #889eab;cursor: pointer;}
+.footer {
+  background-color: #3D84A7;
+  color: #ABEDD8;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  
+}
+.footer-logo img {width: 124px;} 
+.footer-logo p { font-size:12px;
+  color: #151E14;
+  font-family:"Serif";
+  font-weight: 700;
+  padding-left: 5px; }
+.footer-list {float: right;}
+
+.footer-list li {
+ 
+  padding-bottom:20px;}
+         
